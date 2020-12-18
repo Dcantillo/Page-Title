@@ -1,0 +1,66 @@
+h1 {
+text-align: center;
+    color:white ;
+
+}	
+
+.gallery img {
+
+    border: 3px double black;
+    
+    height: 180px; 
+    
+ 
+        margin: 0 auto;
+        padding: 0px;
+        background: white;
+}
+
+button {
+    width: 200px; 
+    height: 100px; 
+    background-color: white ; 
+    display: block; 
+    margin: auto; 
+    font-size: 25px; 
+}
+button:hover{
+background-color: cyan ; 
+    color: blue ; 
+} 
+input, button {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+
+
+
+input {
+    width: 20em;
+}
+
+body { 
+    
+ background-image: url("https://wallpaperaccess.com/full/552032.jpg");
+ background-color: #cccccc;
+
+}
+
+img {
+   height: 200px; 
+ 
+width: 250px; 
+}
+
+.item { 
+ 
+    
+  width: 30%;
+  border: 3px solid lightblue;
+  padding: 20px;
+}
+img:hover{
+background-color: black ; 
+    color: black ; 
+} 
