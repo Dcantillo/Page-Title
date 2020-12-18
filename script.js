@@ -1,3 +1,9 @@
+$( document ).ready(function() {
+   
+
+
+
+
 var picture= [ 'https://media3.s-nbcnews.com/i/newscms/2020_45/3426206/201105-lebron-james-ew-1251p_2d98f600503a17c600b932a1dc9286d1.jpg',
        
               
@@ -39,4 +45,5 @@ $('.gallery').empty();
 picture.forEach(function(item,photo){
     
     $(".gallery").append("<img src=" + picture[photo] + ">");});
+       });
 
